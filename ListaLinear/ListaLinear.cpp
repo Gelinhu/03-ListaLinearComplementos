@@ -122,10 +122,10 @@ void inserirElemento()
 
 void excluirElemento()
 {
-	int num;
+	int nume;
 	cout << "Digite um numero que deseja excluir";
-	cin >> num;
-	int pos = posicaoElemento(num);
+	cin >> nume;
+	int pos = posicaoElemento(nume);
 
     if (pos == -1){
 	
